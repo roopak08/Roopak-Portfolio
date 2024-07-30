@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <!-- <figure class="avatar-box"> -->
+          <img id = "myPic" src="./assets/images/my-pic-wbg1.png" alt="Roopak Narayanasamy" width="80">
+        <!-- </figure> -->
+
+        <div class="info-content">
+          <h1 class="name" title="Roopak Narayanasamy">Roopak Narayanasamy</h1>
+
+          <p class="title">MS CS Graduate @ Stony Brook University</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:roopak.narayanasamy@gmail.com" class="contact-link">roopak.narayanasamy@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+17048585907" class="contact-link">+1 (704) 858-5907</a>
+            </div>
+
+          </li>
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 23, 1982</time>
+            </div>
+
+          </li> -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Jersey City, New Jersey, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/roopak-narayanasamy/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/roopak08" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://scholar.google.com/citations?user=pkxdmRoAAAAJ&hl=en&authuser=2" class="social-link">
+              <ion-icon name="logo-google"></ion-icon>
+            </a>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            👋 Hi, I'm Roopak, a passionate and aspiring Data Engineer specializing in big data analytics 📊, 
+            cloud computing ☁️, real-time data processing ⏱️, and data analysis 📈. I excel in using cutting-edge technologies 
+            like Apache Spark ⚡, Kafka 📥, and Apache Airflow to design and implement scalable ETL pipelines.
+          </p>
+
+          <p>
+            My expertise spans across multiple programming languages such as Python 🐍, SQL 🛢️, and C++, 
+            and I leverage powerful data visualization tools like Tableau 📊 and Power BI 📉 to drive data-driven insights 💡 and 
+            drive operational efficiency 🚀.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/data-trends-svgrepo-com.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Engineering</h4>
+
+                <p class="service-item-text">
+                  Mastering fundamentals of Big Data and ETL pipelines.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/analytics-monitor-svgrepo-com.svg" alt="Data Analysis icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analysis</h4>
+
+                <p class="service-item-text">
+                  Finding insights and making data-driven decisions.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/coding-icon.svg" alt="Coding icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Engineering</h4>
+
+                <p class="service-item-text">
+                  Building scalable and robust software solutions.
+                </p>
+              </div>
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <!-- <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div> 
+
+
+        <!--
+          - Skills
+        -->
+
+        <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Tech-Stack</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/python-icon.webp" alt="Python" style="width: 70px;">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/sql-server.png" alt="client logo" style="width: 70px;">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">State University Of New York at Stony Brook </h4>
+              <p>Stony Brook, NY, USA </p>
+
+              <span>August 2022 — May 2024</span>
+
+              <ul class="timeline-bullet">
+                <li class="timeline-bullet-text">
+                  Master of Science degree in Computer Science. 
+                </li>
+
+                <li class="timeline-bullet-text">
+                  GPA: 3.74/4.00
+                </li>
+
+                <li>
+                  Courses: Big Data Analytics, Theory of Database Systems, Simulation and Modelling, Artificial Intelligence, Intoduction to Computer Vision.
+                </li>
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SRM Institute of Science and Technology</h4>
+              <p>Chennai, India</p>
+
+              <span>June 2018 — May 2022</span>
+
+              <ul class="timeline-bullet">
+                <li class="timeline-bullet-text">
+                  Bachelor of Technology degree in Computer Science with specialization in Big Data Analytics. 
+                </li>
+
+                <li class="timeline-bullet-text">
+                  GPA: 3.88/4.00
+                </li>
+
+                <li>
+                  Courses: Operating Systems, Data Structures, Database Management Systems, Software Engineering.
+                </li>
+              </ul>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graduate Assistant</h4>
+              <p> Stony Brook University, NY, USA</p>
+
+              <span>August 2023 — May 2024</span>
+
+              <ul class="timeline-bullet">
+                <li class="timeline-bullet-text">
+                  Analyzed 5 years of historical earthquake data using Azure tools, identifying key seismic patterns and risks.
+                </li>
+
+                <li class="timeline-bullet-text">
+                  Achieved a 40% improvement in data processing efficiency using Azure Data Factory and Databricks, 
+                  processing and storing data from USGS with minimal latency.
+
+                </li>
+
+                <li>
+                  Developed interactive Tableau dashboards that contributed to a 30% increase in data-driven 
+                  decision-making accuracy for earthquake preparedness and risk assessment.
+
+                </li>
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graduate Research Assistant</h4>
+              <p> Stony Brook University, NY, USA</p>
+
+              <span>January 2023 — May 2024</span>
+
+              <ul class="timeline-bullet">
+                <li class="timeline-bullet-text">
+                  Developed and implemented a Fast Triangle-Triangle Collision Algorithm in C++, enhancing collision
+                  detection efficiency by 30% through object-oriented design principles.
+                </li>
+
+                <li class="timeline-bullet-text">
+                  Parallelized collision computations utilizing GPU - CUDA programming for 6000 triangles dataset, 
+                  optimizing performance.
+
+                </li>
+
+                <li>
+                  Designed an efficient MySQL schema and MongoDB for data storage and retrieval to store intersection
+                  points, and collaborating with medical professionals to detect anomalies in human organs.
+
+                </li>
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Intern</h4>
+              <p> NIT Trichy, TN, India</p>
+
+              <span>2010 — 2013</span>
+
+              <ul class="timeline-bullet">
+                <li class="timeline-bullet-text">
+                  Conducted and presented 4 detailed Data Science research studies on hybrid recommender systems 
+                  at international conferences, published by Springer, focusing on course, tag, judicial case, 
+                  and web image recommendations, leveraging Web Intelligence, Ontology, and NLP.
+                </li>
+                <li class="timeline-bullet-text">
+                  Focused on course, tag, judicial case, and web image recommendations, leveraging Web Intelligence, 
+                  Ontology, and NLP.
+                </li>
+              </ul>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analysis</h5>
+                <data value="100">100%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Engineering</h5>
+                <data value="80">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Software Engineering</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <!-- <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li> -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <!-- <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li> -->
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Analysis</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Engineering</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Software Development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <!-- <li class="select-item">
+                <button data-select-item>All</button>
+              </li> -->
+
+              <li class="select-item">
+                <button data-select-item>Data Analysis</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Engineering</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Software Development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="https://github.com/roopak08/Analysis-of-Coffee-Sales-using-Power-BI">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/csa-dashboard-img.png" alt="CSA" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Coffee Sales Analysis using PowerBI</h3>
+
+                <p class="project-category">SQL - PowerQuery - PowerBI</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="https://github.com/roopak08/Company-Performance-Analysis-using-PowerBI">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cpa-dashboard-img.png" alt="CPA" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Company Performance and Sales Analysis</h3>
+
+                <p class="project-category">SQL - PowerQuery - PowerBI</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data engineering">
+              <a href="https://github.com/roopak08/Analysis-of-Stress-Anxiety-and-Depression-among-University-Students-using-Reddit-community-data">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ASUR.png" alt="ASUR" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Analysis of Stress Anxiety and Depression among University Students using Reddit Community Data</h3>
+
+                <p class="project-category">Python - Pyspark - Google Cloud Platform - Pytorch</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/EDA-img.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Exploratory Data Analysis On Two Centuries Of Marathon
+                </h3>
+
+                <p class="project-category">Python - Pandas - Seaborn - SQL</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data engineering">
+              <a href="https://github.com/roopak08/Earthaquake-Data-Analysis-using-ETL-and-Tableau">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/earthquake-img.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Earthaquake Data Analysis using ETL and Tableau.</h3>
+
+                <p class="project-category">Microsoft Azure - Databricks - ETL - Pyspark - SQL - Tableau</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="https://github.com/roopak08/New-York-Airbnb-Analysis-using-Power-BI">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/abnb-img.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">New York Airbnb Analysis (2023)</h3>
+
+                <p class="project-category">PowerQuery - SQL - PowerBI</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="software development">
+              <a href="https://github.com/roopak08/Shopping-Cart-">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/shopping-cart-img.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Shopping Cart</h3>
+
+                <p class="project-category">JavaScript - HTML - CSS</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data engineering">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/stock-DE-img.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Real-Time Stock Trading Algorithms with Apache Flink and Kafka</h3>
+
+                <p class="project-category">Apache Flink - Kafka - Python - Redpanda</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="software development">
+              <a href="https://github.com/roopak08/Twitter-Clone-Project">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/twitter.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Twitter Clone Project</h3>
+
+                <p class="project-category">React.js - Next.js - MongoDB - JavaScript - HTML - CSS - Tailwind</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data engineering">
+              <a href="https://github.com/roopak08/AWS-Based-Reddit-Data-Engineering-and-ETL-Pipeline-Development">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/aws-reddit-img.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AWS-Based Reddit Data Engineering and ETL Pipeline Development</h3>
+
+                <p class="project-category">Apache Airflow - Celery -  PostgreSQL - AWS (S3, Glue, Athena, and Redshift) - Python - Docker</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data engineering">
+              <a href="https://github.com/roopak08/Realtime-Data-Streaming-Project-of-random-user-data">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/random-user-ETL-img.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Realtime Data Streaming Project of random user data</h3>
+
+                <p class="project-category">Python - Apache Kafka - Apache Airflow - Apache ZooKeeper - Docker - PostgreSQL - Cassandra</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="https://github.com/roopak08/Customer-Churn-Analysis">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/customer-churn-analysis-img.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Customer Churn Analysis</h3>
+
+                <p class="project-category">PowerBI - SQL - Excel</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
